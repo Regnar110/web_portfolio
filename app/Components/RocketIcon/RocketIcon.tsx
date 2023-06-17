@@ -110,19 +110,19 @@ const RocketIcon = () => {
         };
       }, [fires[0].length]);
   return (
-    <svg className='rocket_movement_animation w-[150px] md:w-[200px] lg:w-[220px] xl:w-[250px] 2xl:w-[300px]'  viewBox="0 0 514 492" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg className='rocket_movement_animation w-[150px] md:w-[200px] lg:w-[220px] xl:w-[250px] 2xl:w-[300px] -rotate-45'  viewBox="0 0 514 492" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clipPath="url(#clip0_12_125)">
-            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire1} fill="#E73900"/>
-            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire2} fill="#E73900"/>
-            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire3} fill="#E73900"/>
-            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire4} fill="#E78C00"/>
-            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire5} fill="#E78C00"/>
-            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire6} fill="#E7E100"/>
-            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire7} fill="#E78C00"/>
-            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire8} fill="#E7E100"/>
-            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire9} fill="#E7E100"/>
-            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire10} fill="#FFFF9E"/>
-            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire11} fill="#FFFF9E"/>
+            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire1} fill="#7584D7"/>
+            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire2} fill="#7584D7"/>
+            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire3} fill="#7584D7"/>
+            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire4} fill="#A5B1F0"/>
+            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire5} fill="#A5B1F0"/>
+            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire6} fill="#C6CEFD"/>
+            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire7} fill="#A5B1F0"/>
+            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire8} fill="#C6CEFD"/>
+            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire9} fill="#C6CEFD"/>
+            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire10} fill="#E2E7FF"/>
+            <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire11} fill="#E2E7FF"/>
             <animated.path fillRule="evenodd" clipRule="evenodd" d="M496.454 13.7849C473.906 11.9497 293.255 5.05157 193.54 242.58L263.068 313.38L263.323 313.64C502.62 218.249 498.986 37.5161 497.56 14.9378L496.454 13.7849Z" fill="#ECECEC" stroke="black" strokeWidth="6.3963"/>
             <animated.path d="M389.601 124.498C375.082 109.714 350.189 110.54 334.117 126.323C318.045 142.106 316.781 166.967 331.3 181.751C345.819 196.536 370.711 195.736 386.783 179.953C402.855 164.169 404.119 139.283 389.601 124.498ZM386.153 127.884C398.986 140.952 397.875 162.83 383.668 176.781C369.462 190.732 347.581 191.434 334.748 178.366C321.914 165.297 323.025 143.445 337.231 129.494C351.438 115.543 373.32 114.816 386.153 127.884Z" fill="#CCCCCC"/>
             <animated.path fillRule="evenodd" clipRule="evenodd" d="M380.397 34.8106L431.699 18.2569L484.897 13.2135L497.242 14.4636L493.243 68.7362L477.644 123.387L471.817 132.257L378.263 36.1202" fill="#FF0000"/>
@@ -139,7 +139,7 @@ const RocketIcon = () => {
             <animated.path fillRule="evenodd" clipRule="evenodd" d="M206.516 211.714L192.754 240.803L202.793 252.75L224.243 225.455L206.516 211.714Z" fill="#CCCCCC"/>
             <animated.path d="M379.527 35.6656L471.943 129.773" stroke="black" strokeWidth="6.3963"/>
             <animated.path d="M385.477 173.446C378.203 180.589 368.617 184.781 358.828 185.101C349.038 185.421 339.847 181.841 333.276 175.15C326.705 168.459 323.293 159.204 323.79 149.422C324.287 139.64 328.653 130.131 335.927 122.988C343.2 115.845 352.787 111.652 362.576 111.333C372.366 111.013 381.557 114.593 388.128 121.284C394.699 127.975 398.111 137.229 397.614 147.012C397.117 156.794 392.751 166.303 385.477 173.446Z" fill="#B3B3B3" stroke="black" strokeWidth="6.3963" strokeLinecap="round"/>
-            <animated.path d="M376.826 164.636C374.482 166.939 371.744 168.795 368.767 170.098C365.791 171.401 362.635 172.125 359.48 172.228C356.324 172.332 353.231 171.813 350.377 170.702C347.523 169.591 344.963 167.909 342.845 165.752C340.727 163.596 339.092 161.006 338.033 158.133C336.974 155.259 336.511 152.157 336.672 149.004C336.833 145.85 337.614 142.708 338.971 139.756C340.327 136.804 342.233 134.1 344.578 131.798C346.922 129.495 349.66 127.639 352.636 126.336C355.613 125.033 358.769 124.309 361.924 124.206C365.08 124.102 368.173 124.62 371.027 125.731C373.881 126.843 376.44 128.525 378.558 130.681C380.676 132.838 382.312 135.427 383.371 138.301C384.43 141.175 384.892 144.277 384.732 147.43C384.571 150.583 383.79 153.726 382.433 156.678C381.077 159.63 379.171 162.334 376.826 164.636Z" fill="#80E5FF" stroke="black" strokeWidth="6.3963" strokeLinecap="round"/>
+            <animated.path d="M376.826 164.636C374.482 166.939 371.744 168.795 368.767 170.098C365.791 171.401 362.635 172.125 359.48 172.228C356.324 172.332 353.231 171.813 350.377 170.702C347.523 169.591 344.963 167.909 342.845 165.752C340.727 163.596 339.092 161.006 338.033 158.133C336.974 155.259 336.511 152.157 336.672 149.004C336.833 145.85 337.614 142.708 338.971 139.756C340.327 136.804 342.233 134.1 344.578 131.798C346.922 129.495 349.66 127.639 352.636 126.336C355.613 125.033 358.769 124.309 361.924 124.206C365.08 124.102 368.173 124.62 371.027 125.731C373.881 126.843 376.44 128.525 378.558 130.681C380.676 132.838 382.312 135.427 383.371 138.301C384.43 141.175 384.892 144.277 384.732 147.43C384.571 150.583 383.79 153.726 382.433 156.678C381.077 159.63 379.171 162.334 376.826 164.636Z" fill="#D2E13D" stroke="black" strokeWidth="6.3963" strokeLinecap="round"/>
             <animated.path d="M210.103 211.344L297.407 300.245" stroke="black" strokeWidth="6.3963"/>
             <animated.path d="M293.717 206.918L300.796 214.126L183.256 329.554L176.177 322.346L293.717 206.918Z" fill="#FF0000" stroke="black" strokeWidth="6.3963" strokeLinecap="round"/>
             <animated.path fillRule="evenodd" clipRule="evenodd" d="M296.091 293.289C296.091 293.289 407.654 246.663 459.54 145.365C324.024 280.805 269.743 266.458 269.743 266.458L296.091 293.289Z" fill="#CCCCCC"/>
