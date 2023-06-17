@@ -2,3 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes pulsate {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(1deg);
+  }
+  50% {
+    transform: rotate(-1deg);
+  }
+  75% {
+    transform: rotate(1deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+
+}
+
+.rocket_movement_animation path {
+  animation: pulsate 2s ease-in-out infinite;
+}
