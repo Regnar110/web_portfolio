@@ -15,7 +15,7 @@ export const projects = [
     {
         project_image: apple,
         project_tittle:"APPLE",
-        project_subtittle:"E-commerce platform with new design proposal",
+        project_subtittle:"E-commerce platform",
         project_description: "This is a new design proposal for the APPLA store. With this project, I focused on implementing functionalities such as logging in via Google, shopping cart, shopping via the STRIPE platform. In addition, with the help of the SANITY content management system, it was possible to manage products using an external system without the need to change the code.",
         tech_array: ["Javascript", "TypeScript", "React", "Next", "Redux", "Tailwind", "Sanity CMS", "Stripe"],
         link:"https://devbymat-appleredesign.netlify.app/",

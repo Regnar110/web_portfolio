@@ -18,6 +18,7 @@ export default function Home() {
       <SectionHeader text='KEY BENEFITS' color='black'/>
       <Benefits/>
       <BreakerWithRocket/>
+      <SectionHeader text='PROJECTS' color='white'/>
       <Projects/>
     </main>
   )
