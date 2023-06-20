@@ -13,7 +13,7 @@ const Services = () => {
       <div className='services_container w-full grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-y-5'>
         <Fade triggerOnce={true}  cascade>
             <div className='service flex flex-col md:flex-row lg:flex-col justify-start items-center w-fit text-[#444548]'>
-              <div className='lottie_animation relative w-[300px] h-[300px]'>
+              <div className='lottie_animation relative w-[200px] h-[200px] md:w-[300px] md:h-[300px]'>
                 <Lottie width={300} className='relative' animationData={web_design} loop={true}/>
               </div>
               <div className='service_desc flex flex-col w-fit justify-center items-center'>
@@ -24,7 +24,7 @@ const Services = () => {
                     RESPONSIVE
                   </span> DESIGN
                 </h3>
-                <p className='text-center max-w-[400px] lg:max-w-[330px] xl:max-w-[400px] 2xl:max-w-[500px] text-[12px] lg:text-[13px] xl:text-[14px]  font-normal px-5'>        
+                <p className='text-center max-w-[300px] lg:max-w-[330px] xl:max-w-[400px] 2xl:max-w-[500px] text-[12px] lg:text-[14px] font-normal px-5'>        
                   I specialize in creating unique websites tailored to the needs of my clients. 
                   I use modern technologies and apply 
                   the best programming practices to be able to create responsive, intuitive in navigation and optimal user experience on all devices.
@@ -32,7 +32,7 @@ const Services = () => {
               </div>
             </div>
             <div className='service flex flex-col md:flex-row lg:flex-col justify-start items-center w-fit text-[#444548]'>
-              <div className='lottie_animation relative w-[300px] h-[300px]'>
+              <div className='lottie_animation relative w-[200px] h-[200px] md:w-[300px] md:h-[300px]'>
                 <Lottie width={300} className='relative' animationData={web_solutions} loop={true}/>
               </div>
               <div className='service_desc flex flex-col w-fit justify-center items-center'>
@@ -43,7 +43,7 @@ const Services = () => {
                   <br/>
                   SOLUTIONS
                 </h3>
-                <p className='text-center max-w-[400px] lg:max-w-[330px] xl:max-w-[400px] 2xl:max-w-[500px] text-[12px] lg:text-[13px] xl:text-[14px]  font-normal px-5'>        
+                <p className='text-center max-w-[300px] lg:max-w-[330px] xl:max-w-[400px] 2xl:max-w-[500px] text-[12px] lg:text-[14px] font-normal px-5'>        
                 I offer personalized Internet solutions that are tailored to specific customer requirements. 
                 Whether you need an online store, 
                 a website for your startup or a business card website.
@@ -51,7 +51,7 @@ const Services = () => {
               </div>
             </div>
             <div className='service flex flex-col md:flex-row lg:flex-col justify-start items-center w-fit text-[#444548]'>
-              <div className='lottie_animation relative w-[300px] h-[300px]'>
+              <div className='lottie_animation relative w-[200px] h-[200px] md:w-[300px] md:h-[300px]'>
                 <Lottie width={300} className='relative' animationData={web_live} loop={true}/>
               </div>
               <div className='service_desc flex flex-col w-fit justify-center items-center'>
@@ -60,7 +60,7 @@ const Services = () => {
                   <br/>
                   LIVE WEBSITE
                 </h3>
-                <p className='text-center max-w-[400px] lg:max-w-[330px] xl:max-w-[400px] 2xl:max-w-[500px] text-[12px] lg:text-[13px] xl:text-[14px]  font-normal px-5'>        
+                <p className='text-center max-w-[300px] lg:max-w-[330px] xl:max-w-[400px] 2xl:max-w-[500px] text-[12px] lg:text-[14px] font-normal px-5'>        
                   I am able to perform a full translation 
                   of your graphic design into the website code. It will map your design, ensuring 
                   that every detail, layout and interaction 

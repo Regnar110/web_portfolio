@@ -38,19 +38,19 @@ const TechStackSwiper = () => {
             modules={[Autoplay]}
             loop={true}
             >
-                <SwiperSlide ><div className='h-[150px] flex justify-center items-center'><Image width={100} src={html} alt="tech"/></div></SwiperSlide>
-                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={100} src={css} alt="tech"/></div></SwiperSlide>
-                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={100} src={js} alt="tech"/></div></SwiperSlide>
-                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={100} src={ts} alt="tech"/></div></SwiperSlide>
-                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={100} src={react} alt="tech"/></div></SwiperSlide>
-                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={200} src={next} alt="tech"/></div></SwiperSlide>
-                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={200} src={redux} alt="tech"/></div></SwiperSlide>
-                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={200} src={spring} alt="tech"/></div></SwiperSlide>
-                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={200} src={form} alt="tech"/></div></SwiperSlide>
-                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={200} src={tailwind} alt="tech"/></div></SwiperSlide>
-                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={200} src={mui} alt="tech"/></div></SwiperSlide>
-                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={200} src={sanity} alt="tech"/></div></SwiperSlide>
-                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={100} src={mongo} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide ><div className='h-[150px] flex justify-center items-center'><Image width={100} style={{width:"auto"}} src={html} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={100} style={{width:"auto"}} src={css} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={100} style={{width:"auto"}} src={js} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={100} style={{width:"auto"}} src={ts} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={100} style={{width:"auto"}} src={react} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={200} style={{width:"auto"}} src={next} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={200} style={{width:"auto"}} src={redux} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={200} style={{width:"auto"}} src={spring} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={200} style={{width:"auto"}} src={form} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={200} style={{width:"auto"}} src={tailwind} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={200} style={{width:"auto"}} src={mui} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={200} style={{width:"auto"}} src={sanity} alt="tech"/></div></SwiperSlide>
+                <SwiperSlide ><div className='h-[150px]  flex justify-center items-center'><Image width={100} style={{width:"auto"}} src={mongo} alt="tech"/></div></SwiperSlide>
         </Swiper>           
   )
 }

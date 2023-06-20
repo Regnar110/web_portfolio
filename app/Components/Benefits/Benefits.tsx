@@ -15,9 +15,9 @@ const Benefits = () => {
           <div className='benefit_image'>
               <Image className='md:w-[180px] md:h-[200px] lg:w-[100px] lg:h-[100px]' src={fast} alt='benefit_image'/>
           </div>
-          <div className='benefit_description flex flex-col justify-center items-center gap-5'>
-              <h3 className='font-semibold text-[25px] lg:text-[19px] '>FAST LOADING</h3>
-              <p className='text-[18px] lg:text-[14px] w-[300px]'>
+          <div className='benefit_description max-w-[300px] lg:max-w-[330px] xl:max-w-[400px] 2xl:max-w-[500px] flex flex-col justify-center items-center gap-5'>
+              <h3 className='font-extrabold text-[25px] lg:text-[19px] '>FAST LOADING</h3>
+              <p className='text-[12px] lg:text-[14px] w-[300px] px-5 md:px-0'>
                   The page will load quickly, which means less waiting times for users
               </p>            
           </div>
@@ -27,9 +27,9 @@ const Benefits = () => {
           <div className='benefit_image'>
               <Image className='md:w-[180px] md:h-[200px] lg:w-[100px] lg:h-[100px]' src={interactivity} alt='benefit_image'/>
           </div>
-          <div className='benefit_description flex flex-col justify-center items-center gap-5'>
-              <h3 className='font-semibold text-[25px] lg:text-[19px] '>INTERACTIVITY</h3>
-              <p className='text-[18px] lg:text-[14px] w-[300px]'>
+          <div className='benefit_description max-w-[300px] lg:max-w-[330px] xl:max-w-[400px] 2xl:max-w-[500px] flex flex-col justify-center items-center gap-5'>
+              <h3 className='font-extrabold text-[25px] lg:text-[19px] '>INTERACTIVITY</h3>
+              <p className='text-[12px] lg:text-[14px] w-[300px] px-5 md:px-0'>
                   The site will provide dynamic and interactive elements such as animations and special effects, creating a unique user experience
               </p>            
           </div>
@@ -39,9 +39,9 @@ const Benefits = () => {
           <div className='benefit_image'>
               <Image className='md:w-[180px] md:h-[200px] lg:w-[100px] lg:h-[100px]' src={mobile} alt='benefit_image'/>
           </div>
-          <div className='benefit_description flex flex-col justify-center items-center gap-5'>
-              <h3 className='font-semibold text-[25px] lg:text-[19px] '>RESPONSIVNES</h3>
-              <p className='text-[18px] lg:text-[14px] w-[300px]'>
+          <div className='benefit_description max-w-[300px] lg:max-w-[330px] xl:max-w-[400px] 2xl:max-w-[500px] flex flex-col justify-center items-center gap-5'>
+              <h3 className='font-extrabold text-[25px] lg:text-[19px] '>RESPONSIVNES</h3>
+              <p className='text-[12px] lg:text-[14px] w-[300px] px-5 md:px-0'>
                   Responsive and good-looking website on different devices, while ensuring an optimal experience regardless of the platform
               </p>            
           </div>
@@ -53,9 +53,9 @@ const Benefits = () => {
           <div className='benefit_image'>
               <Image className='md:w-[180px] md:h-[200px] lg:w-[100px] lg:h-[100px]' src={design} alt='benefit_image'/>
           </div>
-          <div className='benefit_description flex flex-col justify-center items-center gap-5'>
-              <h3 className='font-semibold text-[25px] lg:text-[19px] '>ELLEGANT PAGE DESIGN</h3>
-              <p className='text-[18px] lg:text-[14px] w-[300px]'>
+          <div className='benefit_description max-w-[300px] lg:max-w-[330px] xl:max-w-[400px] 2xl:max-w-[500px] flex flex-col justify-center items-center gap-5'>
+              <h3 className='font-extrabold text-[25px] lg:text-[19px] '>ELLEGANT PAGE DESIGN</h3>
+              <p className='text-[12px] lg:text-[14px] w-[300px] px-5 md:px-0'>
                   Tailwind CSS will make your website look professional and attractive, attracting visitors' eyes
               </p>            
           </div>
@@ -64,9 +64,9 @@ const Benefits = () => {
           <div className='benefit_image'>
               <Image className='md:w-[180px] md:h-[200px] lg:w-[100px] lg:h-[100px]' src={maintain} alt='benefit_image'/>
           </div>
-          <div className='benefit_description flex flex-col justify-center items-center gap-5'>
-              <h3 className='font-semibold text-[25px] lg:text-[19px]'>EASY TO MAINTAIN AND EXPAND</h3>
-              <p className='text-[18px] lg:text-[14px] w-[300px]'>
+          <div className='benefit_description max-w-[300px] lg:max-w-[330px] xl:max-w-[400px] 2xl:max-w-[500px] flex flex-col justify-center items-center gap-5'>
+              <h3 className='font-extrabold text-[25px] lg:text-[19px]'>EASY TO MAINTAIN AND EXPAND</h3>
+              <p className='text-[12px] lg:text-[14px] w-[300px] px-5 md:px-0'>
                   The website will be easy to expand, update and maintain thanks to the modular approach to its creation
               </p>            
           </div>
@@ -76,9 +76,9 @@ const Benefits = () => {
           <div className='benefit_image'>
               <Image className='md:w-[180px] md:h-[200px] lg:w-[100px] lg:h-[100px]' src={experience} alt='benefit_image'/>
           </div>
-          <div className='benefit_description flex flex-col justify-center items-center gap-5'>
-              <h3 className='font-semibold text-[25px] lg:text-[19px] '>OPTIMIZED EXPERIENCE</h3>
-              <p className='text-[18px] lg:text-[14px] w-[300px]'>
+          <div className='benefit_description max-w-[300px] lg:max-w-[330px] xl:max-w-[400px] 2xl:max-w-[500px] flex flex-col justify-center items-center gap-5'>
+              <h3 className='font-extrabold text-[25px] lg:text-[19px] '>OPTIMIZED EXPERIENCE</h3>
+              <p className='text-[12px] lg:text-[14px] w-[300px] px-5 md:px-0'>
                   Using React.js and Next.js, the website will be optimized for performance, which will contribute to better usability and user satisfaction
               </p>            
           </div>
