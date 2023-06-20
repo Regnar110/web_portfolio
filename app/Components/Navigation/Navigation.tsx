@@ -1,10 +1,5 @@
 'use client'
 import React, { useEffect, useState } from 'react'
-import Image from 'next/image'
-import phone from '../../../public/phone.svg'
-import mail from '../../../public/mail.svg'
-import fb from '../../../public/fb.svg'
-import discord from '../../../public/discord.svg'
 import MobileBurgerMenu from './MobileBurgerMenu'
 import MediaQuery from 'react-responsive/'
 import { Link } from 'react-scroll'
@@ -34,19 +29,7 @@ const Navigation = () => {
       </MediaQuery>
       <MediaQuery maxWidth={767}>
         <MobileBurgerMenu/>
-      </MediaQuery>
-      {/* <div className='nav_icons flex gap-4'>
-        <div className='nav_icon_container flex flex-col justify-center items-center'>
-          <Image className='w-[18px] cursor-pointer' src={phone} alt='phone'/>
-          <div className='bg-white text-[12px] text-[#D03838] font-extrabold rounded-sm p-1'>784 452 569</div>
-        </div>
-        <div className='nav_icon_container'>
-          <Image className='w-[18px] cursor-pointer' src={mail} alt='mail'/>          
-        </div>
-        <div className='nav_icon_container'>
-          <Image className='w-[18px] cursor-pointer' src={discord} alt='discord'/>          
-        </div>
-      </div> */}
+      </MediaQuery>s
     </nav>
   :
   null

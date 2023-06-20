@@ -1,12 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Image from 'next/image'
 import phone from '../../../public/phone.svg'
 import discord from '../../../public/discord.svg'
 import mail from '../../../public/mail.svg'
 const SocialIcons = () => {
-    const [phoneState, setPhone ] = useState<boolean>(false)
-    const [mailState, setMail ] = useState<boolean>(false)
-    const [discordState, setDiscord ] = useState<boolean>(false)
   return (
     <div className='fixed z-50 right-[-200px] top-[65%] flex flex-col gap-y-3 text-[12px]'>
       <div className='phone relative right-[0px] hover:right-[200px] transition-all duration-300 w-[250px] bg-[#1e253d] text-white font-medium rounded-md overflow-hidden flex justify-start'>
