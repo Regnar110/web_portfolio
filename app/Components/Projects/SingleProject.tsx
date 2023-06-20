@@ -25,7 +25,7 @@ const SingleProject = ({project_image, project_subtittle, project_description, t
         </div>
         <div className={`project_absolute_wrapper relative md:absolute flex flex-col max-w-[1024px]  items-center gap-4 top-0 w-fit h-full bg-[#111525b9] ${isHovered === true ? "md:opacity-1 " : "md:opacity-[0]"} transition-all duration-100`}>
             <span className='project_description text-white text-[11px] md:text-[16px] lg:text-[20px] xl:text-[14px] 2xl:text-[16px] font-normal text-center p-0 md:p-7'>{project_description}</span>
-            <div className='tech_stac_project flex flex-wrap gap-y-4 gap-x-2 font-semibold justify-center items-center max-w-[75%]'>
+            <div className='tech_stac_project flex flex-wrap gap-y-4 gap-x-2 font-semibold justify-center items-center max-w-[90%] md:max-w-[75%]'>
               {
                 tech_array.map((el,i) => <ProjectTechIcon key={i} tech_text={el}/>)
               }

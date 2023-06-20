@@ -6,6 +6,7 @@ import RocketIcon from '../RocketIcon/RocketIcon'
 import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax'
 import { BannerLayer } from 'react-scroll-parallax/dist/components/ParallaxBanner/types'
 import success_space from '../../../public/succes_space.json'
+import SectionHeader from '../SectionHeader/SectionHeader'
 
 const BreakerWithRocket = () => {
     const rocketBackground: BannerLayer = {
@@ -32,7 +33,7 @@ const BreakerWithRocket = () => {
         translateY: [20, -10],
         shouldAlwaysCompleteAnimation: true,
         children: (
-            <section className='text-white text-[30px] absolute inset-0 flex flex-col items-center justify-center p-4'>
+            <section className='text-white text-[30px] absolute inset-10 flex flex-col items-center justify-center p-4'>
                 <header className='text-[#ffffffc4] w-full relative text-[25px] sm:text-[27px] lg:text-[35px] xl:text-[40px] 2xl:text-[50px] font-extrabold text-center'>
                     I WILL <span className='text-[#D03838]'>MAKE</span> YOUR
                     <br/>
@@ -55,10 +56,7 @@ const BreakerWithRocket = () => {
 
   return (
     <ParallaxProvider>
-                <ParallaxBanner layers={[rocketBackground ,rocket, afterRocket, gradientOverlay]} className="min-h-[800px] lg:h-[100vh] bg-gray-900"/>
-            {/* <Parallax className='w-full flex justify-center items-center' speed={100}>
-                <RocketIcon/>
-            </Parallax> */}
+      <ParallaxBanner layers={[rocketBackground ,rocket, afterRocket]} className="min-h-[800px] lg:h-[100vh] bg-gray-900"/>
     </ParallaxProvider>
   )
 }
