@@ -14,7 +14,7 @@ const Services = () => {
         {/* <Fade triggerOnce={true}  cascade> */}
             <div className='service flex flex-col md:flex-row lg:flex-col justify-start items-center w-fit text-[#444548]'>
               <div className='lottie_animation relative w-[200px] h-[200px] md:w-[300px] md:h-[300px]'>
-                {/* <Lottie width={300} className='relative' animationData={web_design} loop={true}/> */}
+                <Lottie width={300} className='relative' animationData={web_design} loop={true}/>
               </div>
               <div className='service_desc flex flex-col w-fit justify-center items-center'>
                 <h3 className='w-fit h-[70px] text-[21px] text-black font-extrabold text-center '>
@@ -33,7 +33,7 @@ const Services = () => {
             </div>
             <div className='service flex flex-col md:flex-row lg:flex-col justify-start items-center w-fit text-[#444548]'>
               <div className='lottie_animation relative w-[200px] h-[200px] md:w-[300px] md:h-[300px]'>
-                {/* <Lottie width={300} className='relative' animationData={web_solutions} loop={true}/> */}
+                <Lottie width={300} className='relative' animationData={web_solutions} loop={true}/>
               </div>
               <div className='service_desc flex flex-col w-fit justify-center items-center'>
                 <h3 className='w-fit h-[70px] text-[21px] text-black font-extrabold text-center '>
@@ -52,7 +52,7 @@ const Services = () => {
             </div>
             <div className='service flex flex-col md:flex-row lg:flex-col justify-start items-center w-fit text-[#444548]'>
               <div className='lottie_animation relative w-[200px] h-[200px] md:w-[300px] md:h-[300px]'>
-                {/* <Lottie width={300} className='relative' animationData={web_live} loop={true}/> */}
+                <Lottie width={300} className='relative' animationData={web_live} loop={true}/>
               </div>
               <div className='service_desc flex flex-col w-fit justify-center items-center'>
                 <h3 className='w-fit h-[70px] text-[21px] text-black font-extrabold text-center '>

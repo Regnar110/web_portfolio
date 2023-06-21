@@ -27,7 +27,7 @@ const Landing = () => {
         </ParallaxProvider>
 
         <div className='langin_animation_container relative flex justify-center items-center transform translate-y-[18%] w-full 2xl:max-w-[1300px]  h-fit place-self-end'>
-            {/* <Lottie className='relative' animationData={juicy} loop={true}/>  */}
+            <Lottie className='relative' animationData={juicy} loop={true}/> 
         </div>
         
     </section>

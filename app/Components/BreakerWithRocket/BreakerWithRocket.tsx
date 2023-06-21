@@ -38,7 +38,7 @@ const BreakerWithRocket = () => {
                     I WILL <span className='text-[#D03838]'>MAKE</span> YOUR
                     <br/>
                     PROJECT REACH THE ORBIT OF <span className='text-[#D03838]'>SUCCESS</span>
-                    {/* <Lottie className='absolute w-[400px] md:w-[600px] top-15 md:top-5 right-0 -z-50 opacity-[0.8]' animationData={success_space} loop={true}/> */}
+                    <Lottie className='absolute w-[400px] md:w-[600px] top-15 md:top-5 right-0 -z-50 opacity-[0.8]' animationData={success_space} loop={true}/>
                 </header>
                 
             </section>
