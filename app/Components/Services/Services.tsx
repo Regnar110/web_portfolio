@@ -11,7 +11,7 @@ const Services = () => {
     <section id="services" className='services w-full bg-white pb-10'>
       <SectionHeader text='WHAT I DO' color='black'/>
       <div className='services_container w-full grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-y-5'>
-        <Fade triggerOnce={true}  cascade>
+        {/* <Fade triggerOnce={true}  cascade> */}
             <div className='service flex flex-col md:flex-row lg:flex-col justify-start items-center w-fit text-[#444548]'>
               <div className='lottie_animation relative w-[200px] h-[200px] md:w-[300px] md:h-[300px]'>
                 {/* <Lottie width={300} className='relative' animationData={web_design} loop={true}/> */}
@@ -68,7 +68,7 @@ const Services = () => {
                 </p>
               </div>
             </div>          
-        </Fade>
+        {/* </Fade> */}
       </div>
       
     </section>

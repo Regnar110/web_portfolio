@@ -10,7 +10,7 @@ import { Fade } from 'react-awesome-reveal'
 const Benefits = () => {
   return (
     <section className='w-full bg-white grid lg:grid-cols-3 items-start justify-items-center text-center gap-10 md:gap-5 py-10 px-5'>
-      <Fade triggerOnce={true} cascade direction='down'>
+      {/* <Fade triggerOnce={true} cascade direction='down'> */}
         <div className='benefit flex flex-col md:flex-row lg:flex-col items-center justify-center md:justify-around lg:justify-start gap-10 lg:gap-4 w-full lg:w-fit'>
           <div className='benefit_image'>
               <Image className='md:w-[180px] md:h-[200px] lg:w-[100px] lg:h-[100px]' src={fast} alt='benefit_image'/>
@@ -47,8 +47,8 @@ const Benefits = () => {
           </div>
 
         </div>        
-      </Fade>
-      <Fade triggerOnce={true}  cascade direction='down'>
+      {/* </Fade>
+      <Fade triggerOnce={true}  cascade direction='down'> */}
         <div className='benefit flex flex-col md:flex-row lg:flex-col items-center justify-center md:justify-around lg:justify-start gap-10 lg:gap-4 w-full lg:w-fit'>
           <div className='benefit_image'>
               <Image className='md:w-[180px] md:h-[200px] lg:w-[100px] lg:h-[100px]' src={design} alt='benefit_image'/>
@@ -85,7 +85,7 @@ const Benefits = () => {
 
         </div>
                 
-      </Fade>
+      {/* </Fade> */}
  
       
     </section>
