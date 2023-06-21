@@ -28,7 +28,6 @@ export default function Home() {
             <TechStackSwiper/>
             <SectionHeader text='KEY BENEFITS' color='black'/>
             <Benefits/>
-            <BreakerWithRocket/>
             <SectionHeader text='PROJECTS' color='white'/>
             <Projects/>
             <SocialIcons/>       

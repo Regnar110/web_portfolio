@@ -1,7 +1,23 @@
 'use client'
 import React from 'react'
-import Lottie from "lottie-react"
+import Lottie, { useLottie, useLottieInteractivity } from "lottie-react"
 import juicy from '../../../public/juicy_man.json'
+const Animation = () => {
+    
+    const Interactivity = useLottieInteractivity({
+        lottieObj: useLottie({animationData: juicy}),
+        mode: "scroll",
+        actions: [
+        {
+            visibility: [0, 1],
+            type: "play",
+            frames: [0, 150],
+        },
+        ],
+    });
+    return Interactivity
+}
+
 const Landing = () => {
   return (
     <section id='about' className='landing_section w-full bg-[#111525] md:flex grid auto-rows-2 items-center md:justify-center md:flex-row max-w-[2000px] border-b-[1px] border-[#D03838]'>
@@ -15,7 +31,8 @@ const Landing = () => {
                 </div>
             </div>                
         <div className='langin_animation_container relative flex justify-center items-center transform translate-y-[18%] w-full 2xl:max-w-[1300px]  h-fit place-self-end'>
-            <Lottie className='relative' animationData={juicy} loop={true}/> 
+            {/* <Lottie interactivity={interactivity} className='relative' animationData={juicy} loop={true}/>  */}
+            <Animation/>
         </div>
         
     </section>
