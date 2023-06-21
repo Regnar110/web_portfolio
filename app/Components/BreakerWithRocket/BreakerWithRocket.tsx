@@ -6,8 +6,6 @@ import RocketIcon from '../RocketIcon/RocketIcon'
 import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax'
 import { BannerLayer } from 'react-scroll-parallax/dist/components/ParallaxBanner/types'
 import success_space from '../../../public/succes_space.json'
-import SectionHeader from '../SectionHeader/SectionHeader'
-
 const BreakerWithRocket = () => {
     const rocketBackground: BannerLayer = {
         image:
@@ -44,16 +42,6 @@ const BreakerWithRocket = () => {
             </section>
         )
       };
-    
-      const gradientOverlay: BannerLayer = {
-        opacity: [0, 0.9],
-        shouldAlwaysCompleteAnimation: true,
-        expanded: false,
-        children: (
-          <div className="absolute inset-0 bg-gradient-to-t from-[#111525] to-[#026dc47e]" />
-        ),
-      };
-
   return (
     <ParallaxProvider>
       <ParallaxBanner layers={[rocketBackground ,rocket, afterRocket]} className="min-h-[800px] lg:h-[100vh] bg-gray-900"/>
