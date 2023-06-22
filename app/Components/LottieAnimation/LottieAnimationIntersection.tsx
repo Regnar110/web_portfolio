@@ -3,7 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import Lottie from 'lottie-react';
 interface AnimationProps {
     animationData:any
-    animationClassName:string
+    animationClassName?:string
 }
 const LottieAnimationIntersection = ({animationData, animationClassName}:AnimationProps) => {
   //OPTIMIZED LOTTIE ANIMATION COMPONENT
