@@ -1,26 +1,17 @@
 'use client'
 import React from 'react'
-import Lottie, { useLottie, useLottieInteractivity } from "lottie-react"
 import juicy from '../../../public/juicy_man.json'
-const Animation = () => {
-    
-    const Interactivity = useLottieInteractivity({
-        lottieObj: useLottie({animationData: juicy}),
-        mode: "scroll",
-        actions: [
-        {
-            visibility: [0, 1],
-            type: "play",
-            frames: [0, 150],
-        },
-        ],
-    });
-    return Interactivity
-}
-
+import { useInView } from 'react-intersection-observer';
+import Lottie from 'lottie-react';
 const Landing = () => {
+    
+  const { ref, inView } = useInView({
+    /* Optional options */
+    threshold: 0,
+  });
+
   return (
-    <section id='about' className='landing_section w-full bg-[#111525] md:flex grid auto-rows-2 items-center md:justify-center md:flex-row max-w-[2000px] border-b-[1px] border-[#D03838]'>
+    <section ref={ref} id='about' className='landing_section w-full bg-[#111525] md:flex grid auto-rows-2 items-center md:justify-center md:flex-row max-w-[2000px] border-b-[1px] border-[#D03838]'>
             <div className='landing_headers mt-20 md:mt-0 flex flex-col items-center justify-center w-full text-white '>
                 <div className='w-fit flex flex-col items-start justify-center'>
                         <h1 className='text-[30px] sm:text-[37px] lg:text-[45px] xl:text-[50px] 2xl:text-[60px] font-extrabold w-fit'>FRONT - END</h1>
@@ -30,9 +21,8 @@ const Landing = () => {
                         </span>                        
                 </div>
             </div>                
-        <div className='langin_animation_container relative flex justify-center items-center transform translate-y-[18%] w-full 2xl:max-w-[1300px]  h-fit place-self-end'>
-            {/* <Lottie interactivity={interactivity} className='relative' animationData={juicy} loop={true}/>  */}
-            <Animation/>
+        <div  className='langin_animation_container relative flex justify-center items-center transform translate-y-[18%] w-full 2xl:max-w-[1300px]  h-fit place-self-end'>
+            {inView && <Lottie  className='relative' animationData={juicy} loop={true}/> }
         </div>
         
     </section>
