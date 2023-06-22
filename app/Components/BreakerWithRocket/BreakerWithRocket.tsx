@@ -5,6 +5,8 @@ import Lottie from "lottie-react"
 import { ParallaxBanner, ParallaxProvider } from 'react-scroll-parallax'
 import { BannerLayer } from 'react-scroll-parallax/dist/components/ParallaxBanner/types'
 import success_space from '../../../public/succes_space.json'
+import LottieAnimationIntersection from '../LottieAnimation/LottieAnimationIntersection'
+import RocketIcon from '../RocketIcon/RocketIcon'
 const BreakerWithRocket = () => {
     const rocketBackground: BannerLayer = {
         image:
@@ -21,7 +23,7 @@ const BreakerWithRocket = () => {
         expanded: false,
         children: (
           <div className="absolutes inset-0 flex items-center justify-center lg:justify-start">
-            <Lottie  className=' w-[300px] md:w-[350] -rotate-45 -z-50 opacity-[0.8]' animationData={success_space} loop={true}/>
+            <RocketIcon/>
           </div>
         ),
       };
@@ -36,7 +38,7 @@ const BreakerWithRocket = () => {
                     <br/>
                     PROJECT REACH THE ORBIT OF <span className='text-[#D03838]'>SUCCESS</span>
                 </header>
-                
+                <LottieAnimationIntersection animationClassName=' w-[300px] md:w-[350] -rotate-45 -z-50 opacity-[0.8]' animationData={success_space}/>
             </section>
         )
       };

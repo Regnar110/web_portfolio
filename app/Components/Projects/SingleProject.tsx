@@ -32,7 +32,7 @@ const SingleProject = ({project_image, project_subtittle, project_description, t
             </div>
             <div className='visit_icons flex justify-center items-center gap-3'>
               <div className='visit_icon_wrapper border-[2px] border-[#D03838] bg-[#111525b9] p-1 rounded-full flex justify-center items-center  text-[#fff]'>
-                <Link href={link}><TelegramIcon fontSize='medium' color='inherit'/> </Link>
+                <Link shallow={true} href={link}><TelegramIcon fontSize='medium' color='inherit'/> </Link>
               </div>
               <div className='visit_icon_wrapper border-[2px] border-[#D03838] bg-[#111525b9] p-1 rounded-full flex justify-center items-center text-[#fff]'>
                 <Link href={github_link}><GitHubIcon fontSize='medium' color='inherit'/> </Link>

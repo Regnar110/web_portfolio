@@ -5,22 +5,17 @@ import Lottie from "lottie-react"
 import web_design from '../../../public/web_design.json'
 import web_solutions from '../../../public/web_solutions.json'
 import web_live from '../../../public/live_web.json'
-import { useInView } from 'react-intersection-observer';
+
+import LottieAnimationIntersection from '../LottieAnimation/LottieAnimationIntersection'
 
 const Services = () => {
-
-  const { ref, inView } = useInView({
-    /* Optional options */
-    threshold: 0,
-  });
-
   return (
     <section id="services" className='services w-full bg-white pb-10'>
       <SectionHeader text='WHAT I DO' color='black'/>
       <div className='services_container w-full grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-y-5'>
             <div className='service flex flex-col md:flex-row lg:flex-col justify-start items-center w-fit text-[#444548]'>
-              <div ref={ref} className='lottie_animation relative w-[200px] h-[200px] md:w-[300px] md:h-[300px]'>
-                {inView && <Lottie width={300} className='relative' animationData={web_design} loop={true}/>}
+              <div className='lottie_animation relative w-[200px] h-[200px] md:w-[300px] md:h-[300px]'>
+                <LottieAnimationIntersection animationData={web_design}/>
               </div>
               <div className='service_desc flex flex-col w-fit justify-center items-center'>
                 <h3 className='w-fit h-[70px] text-[21px] text-black font-extrabold text-center '>
@@ -38,8 +33,9 @@ const Services = () => {
               </div>
             </div>
             <div className='service flex flex-col md:flex-row lg:flex-col justify-start items-center w-fit text-[#444548]'>
-              <div ref={ref} className='lottie_animation relative w-[200px] h-[200px] md:w-[300px] md:h-[300px]'>
-                {inView && <Lottie width={300} className='relative' animationData={web_solutions} loop={true}/>}
+              <div className='lottie_animation relative w-[200px] h-[200px] md:w-[300px] md:h-[300px]'>
+              <LottieAnimationIntersection animationData={web_solutions}/>
+                {/* <Lottie width={300} className='relative' animationData={web_solutions} loop={true}/> */}
               </div>
               <div className='service_desc flex flex-col w-fit justify-center items-center'>
                 <h3 className='w-fit h-[70px] text-[21px] text-black font-extrabold text-center '>
@@ -57,8 +53,9 @@ const Services = () => {
               </div>
             </div>
             <div className='service flex flex-col md:flex-row lg:flex-col justify-start items-center w-fit text-[#444548]'>
-              <div ref={ref} className='lottie_animation relative w-[200px] h-[200px] md:w-[300px] md:h-[300px]'>
-                {inView && <Lottie width={300} className='relative' animationData={web_live} loop={true}/>}
+              <div className='lottie_animation relative w-[200px] h-[200px] md:w-[300px] md:h-[300px]'>
+              <LottieAnimationIntersection animationData={web_live}/>
+                {/* <Lottie width={300} className='relative' animationData={web_live} loop={true}/> */}
               </div>
               <div className='service_desc flex flex-col w-fit justify-center items-center'>
                 <h3 className='w-fit h-[70px] text-[21px] text-black font-extrabold text-center '>
