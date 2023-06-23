@@ -2,6 +2,7 @@
 import React, { useEffect } from 'react'
 import { animated, useSpring } from '@react-spring/web'
 import { useState } from 'react'
+import { useInView } from 'react-intersection-observer'
 
 const fires = [
     [
@@ -99,6 +100,12 @@ const RocketIcon = () => {
         fire10:fires[9][activeIndex],
         fire11:fires[10][activeIndex]
     })
+
+    const { ref, inView } = useInView({
+        /* Optional options */
+        threshold: 0.5,
+      });
+
     useEffect(() => {
         const animateRocket = () => {
           setActiveIndex((prevIndex) => (prevIndex + 1) % fires[0].length);
@@ -109,8 +116,9 @@ const RocketIcon = () => {
           clearInterval(intervalId);
         };
       }, [fires[0].length]);
+
   return (
-    <svg className='rocket_movement_animation w-[300px] -rotate-45'  viewBox="0 0 514 492" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg ref={ref} className={`${inView === true ? "rocket_movement_animation": ""} w-[150px] md:w-[200px] lg:w-[220px] xl:w-[250px] 2xl:w-[300px] -rotate-45`}  viewBox="0 0 514 492" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g clipPath="url(#clip0_12_125)">
             <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire1} fill="#7584D7"/>
             <animated.path fillRule="evenodd" clipRule="evenodd" d={animationProps.fire2} fill="#7584D7"/>

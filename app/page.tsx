@@ -20,7 +20,7 @@ export default function Home() {
   },[])
   return isLoading?
         <main id='app_container' className="m-0 p-0 flex flex-col bg-[#111525] justify-center items-center overflow-hidden scroll-smooth">
-          {/* <Navigation/> */}
+          <Navigation/>
           <div id='page_container' className='burger_page-wrap flex flex-col bg-[#111525] justify-center items-center overflow-hidden scroll-smooth'>
             <Landing/>
             <AboutMe/>

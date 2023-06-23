@@ -38,7 +38,7 @@ const BreakerWithRocket = () => {
                     <br/>
                     PROJECT REACH THE ORBIT OF <span className='text-[#D03838]'>SUCCESS</span>
                 </header>
-                <LottieAnimationIntersection animationClassName=' w-[300px] md:w-[350] -rotate-45 -z-50 opacity-[0.8]' animationData={success_space}/>
+                <LottieAnimationIntersection animationClassName='absolute w-[300px] md:w-[350px] right-0 -rotate-45 -z-50 opacity-[0.8]' animationData={success_space}/>
             </section>
         )
       };
