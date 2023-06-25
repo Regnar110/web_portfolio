@@ -11,7 +11,7 @@ const SocialIcons = () => {
             <Image className='w-[22px] cursor-pointer' src={phone} alt='phone'/>
         </div>
         <div className='default_hidden_content w-full flex justify-center items-center'>
-            784 452 569
+            <a href="tel:+48784452569">784 452 569</a>
         </div>
       </div>
       <div className='mail relative right-[0px] hover:right-[200px] transition-all duration-300 w-[250px] bg-[#1e253d] text-white font-medium rounded-md overflow-hidden flex justify-start'>
@@ -19,7 +19,7 @@ const SocialIcons = () => {
             <Image className='w-[22px] cursor-pointer' src={mail} alt='mail'/>
         </div>
         <div className='default_hidden_content w-full flex justify-center items-center'>
-            mateuszwrycza3@gmail.com
+            <a href="mailto: mateuszwrycza3@gmail.com">mateuszwrycza3@gmail.com</a>
         </div>
       </div>
       <div className='discord relative right-[0px] hover:right-[200px] transition-all duration-300 w-[250px] bg-[#1e253d] text-white font-medium rounded-md overflow-hidden flex justify-start'>
