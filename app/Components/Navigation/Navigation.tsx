@@ -31,7 +31,7 @@ const Navigation = () => {
       </MediaQuery>
       <MediaQuery maxWidth={767}>
         <MobileBurgerMenu/>
-      </MediaQuery>s
+      </MediaQuery>
     </nav>
   :
   null
