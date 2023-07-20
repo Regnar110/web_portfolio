@@ -2,7 +2,17 @@ import apart from '../public/projects/apart.svg'
 import apple from '../public/projects/apple.svg'
 import weather from '../public/projects/weather.svg'
 import rw from '../public/projects/rw.svg'
+import artificium from '../public/projects/artificium.svg'
 export const projects = [
+    {
+        project_image: artificium,
+        project_tittle:"ARTIFICIUM",
+        project_subtittle:"Web chat app ( In construction! )",
+        project_description:"Artificium is a discord-based app with a unique design. The user will be able to set up a new account, log in using a form or google. Regardless of which login method the user chooses, his request to access the application data and its further parts will always be authenticated and checked. In the further part, the user can set up their chat, manage them, join new ones, add and remove friends, and above all, exchange messages with other users and more.",
+        tech_array: ["Javascript", "TypeScript", "React", "Next", "Redux", "Tailwind", "GoogleProvider", "NextAuth", "Node", "Express", "MongoDB"],
+        link:"",
+        github_link:"https://github.com/Regnar110/artificium"
+    },
     {
         project_image: apart,
         project_tittle:"APART",
@@ -21,15 +31,15 @@ export const projects = [
         link:"https://devbymat-appleredesign.netlify.app/",
         github_link:"https://github.com/Regnar110/apple_redesign"
     },
-    {
-        project_image: weather,
-        project_tittle:"Weather App",
-        project_subtittle:"Weather forecasting application",
-        project_description: "It is an application that shows the current weather with a forecast for the next seven days. Several APIs were used here, such as PlacesAPI, GeoLocationAPI OpenMeteoApI and others. The Front End of the Application was created with the help of React and the BackEnd with the help of Node.js + Express.js.",
-        tech_array: ["Javascript", "React", "SCSS", "Node.js", "Express.js"],
-        link:"https://regnar110weatherapp.netlify.app/",
-        github_link:"https://github.com/Regnar110/react_weather"
-    },
+    // {
+    //     project_image: weather,
+    //     project_tittle:"Weather App",
+    //     project_subtittle:"Weather forecasting application",
+    //     project_description: "It is an application that shows the current weather with a forecast for the next seven days. Several APIs were used here, such as PlacesAPI, GeoLocationAPI OpenMeteoApI and others. The Front End of the Application was created with the help of React and the BackEnd with the help of Node.js + Express.js.",
+    //     tech_array: ["Javascript", "React", "SCSS", "Node.js", "Express.js"],
+    //     link:"https://regnar110weatherapp.netlify.app/",
+    //     github_link:"https://github.com/Regnar110/react_weather"
+    // },
     {
         project_image: rw,
         project_tittle:"Roofing company website",
