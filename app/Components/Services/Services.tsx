@@ -3,8 +3,8 @@ import React from 'react'
 import SectionHeader from '../SectionHeader/SectionHeader'
 import Lottie from "lottie-react"
 import web_design from '../../../public/web_design.json'
-import web_solutions from '../../../public/web_solutions.json'
-import web_live from '../../../public/live_web.json'
+import rwd from '../../../public/rwd.json'
+import backend from '../../../public/backend.json'
 
 import LottieAnimationIntersection from '../LottieAnimation/LottieAnimationIntersection'
 
@@ -19,55 +19,53 @@ const Services = () => {
               </div>
               <div className='service_desc flex flex-col w-fit justify-center items-center'>
                 <h3 className='w-fit h-[70px] text-[21px] text-black font-extrabold text-center '>
-                  CREATING BEAUTIFUL AND
+                  WRITING
                   <br/>
                   <span className='text-[#D03838]'>
-                    RESPONSIVE
-                  </span> DESIGN
+                    CLEAN CODE
+                  </span>
                 </h3>
-                <p className='text-center max-w-[300px] lg:max-w-[330px] xl:max-w-[400px] 2xl:max-w-[500px] text-[12px] lg:text-[14px] font-normal px-5'>        
-                  I specialize in creating unique websites tailored to the needs of my clients. 
-                  I use modern technologies and apply 
-                  the best programming practices to be able to create responsive, intuitive in navigation and optimal user experience on all devices.
+                <p className='text-center max-w-[300px] lg:max-w-[330px] xl:max-w-[400px] 2xl:max-w-[500px] text-[12px] lg:text-[14px] font-normal px-5'>     
+                  I put a lot of emphasis on writing clean JavaScript code, which means that my projects are not only functional, but also readable and organized. 
+                  Using the React library, the code is modular and reusable.   
                 </p>
               </div>
             </div>
             <div className='service flex flex-col md:flex-row lg:flex-col justify-start items-center w-fit text-[#444548]'>
               <div className='lottie_animation relative w-[200px] h-[200px] md:w-[300px] md:h-[300px]'>
-              <LottieAnimationIntersection animationData={web_solutions}/>
+              <LottieAnimationIntersection animationData={rwd}/>
                 {/* <Lottie width={300} className='relative' animationData={web_solutions} loop={true}/> */}
               </div>
-              <div className='service_desc flex flex-col w-fit justify-center items-center'>
+              <div className='service_desc flex flex-col w-fit justify-center items-center z-10'>
                 <h3 className='w-fit h-[70px] text-[21px] text-black font-extrabold text-center '>
                   <span className='text-[#D03838]'>
-                    PERSONALISED 
-                  </span> WEB
+                    RESPONSIVE
+                  </span>
                   <br/>
-                  SOLUTIONS
+                  WEB DESIGN
                 </h3>
                 <p className='text-center max-w-[300px] lg:max-w-[330px] xl:max-w-[400px] 2xl:max-w-[500px] text-[12px] lg:text-[14px] font-normal px-5'>        
-                I offer personalized Internet solutions that are tailored to specific customer requirements. 
-                Whether you need an online store, 
-                a website for your startup or a business card website.
+                I create websites that look and work great on a variety of devices - from computers to smartphones. 
+                Thanks to the use of techniques such as media queries, flexbox and grid layout, my projects adapt to different screens, 
+                guaranteeing a consistent and comfortable experience for users.
                 </p>
               </div>
             </div>
             <div className='service flex flex-col md:flex-row lg:flex-col justify-start items-center w-fit text-[#444548]'>
               <div className='lottie_animation relative w-[200px] h-[200px] md:w-[300px] md:h-[300px]'>
-              <LottieAnimationIntersection animationData={web_live}/>
+              <LottieAnimationIntersection animationData={backend}/>
                 {/* <Lottie width={300} className='relative' animationData={web_live} loop={true}/> */}
               </div>
               <div className='service_desc flex flex-col w-fit justify-center items-center'>
                 <h3 className='w-fit h-[70px] text-[21px] text-black font-extrabold text-center '>
-                  <span className='text-[#D03838]'>YOUR DESIGN</span> TO 
+                  <span className='text-[#D03838]'>BACK-END</span>
                   <br/>
-                  LIVE WEBSITE
+                  DEVELOPMENT
                 </h3>
                 <p className='text-center max-w-[300px] lg:max-w-[330px] xl:max-w-[400px] 2xl:max-w-[500px] text-[12px] lg:text-[14px] font-normal px-5'>        
-                  I am able to perform a full translation 
-                  of your graphic design into the website code. It will map your design, ensuring 
-                  that every detail, layout and interaction 
-                  is properly transferred to the code
+                I create scalable and efficient services that support business logic and communicate with the database. 
+                Using Node.js, I am able to create API, manage sessions and authorization, 
+                as well as integrate with various technologies, which allows for the comprehensive construction of full web applications.
                 </p>
               </div>
             </div> 

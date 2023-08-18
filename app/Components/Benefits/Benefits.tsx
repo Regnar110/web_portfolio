@@ -53,7 +53,7 @@ const Benefits = () => {
           <div className='benefit_description max-w-[300px] lg:max-w-[330px] xl:max-w-[400px] 2xl:max-w-[500px] flex flex-col justify-center items-center gap-5'>
               <h3 className='font-extrabold text-[25px] lg:text-[19px] '>ELLEGANT PAGE DESIGN</h3>
               <p className='text-[12px] lg:text-[14px] w-[300px] px-5 md:px-0'>
-                  Tailwind CSS will make your website look professional and attractive, attracting visitors' eyes
+                  Tailwind CSS will make website look professional and attractive, attracting visitors' eyes
               </p>            
           </div>
         </div>
@@ -64,7 +64,7 @@ const Benefits = () => {
           <div className='benefit_description max-w-[300px] lg:max-w-[330px] xl:max-w-[400px] 2xl:max-w-[500px] flex flex-col justify-center items-center gap-5'>
               <h3 className='font-extrabold text-[25px] lg:text-[19px]'>EASY TO MAINTAIN AND EXPAND</h3>
               <p className='text-[12px] lg:text-[14px] w-[300px] px-5 md:px-0'>
-                  The website will be easy to expand, update and maintain thanks to the modular approach to its creation
+                  The website code base will be easy to expand, update and maintain thanks to the modular approach to its creation
               </p>            
           </div>
 
